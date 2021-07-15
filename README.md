@@ -1,1 +1,1 @@
-<h1> My <strong> Extensions </strong> and <strong> Setting </strong> ussed in VSCode </h1>
+<h1> 🔥 My <strong> Extensions </strong> and <strong> Setting </strong> ussed in VSCode </h1>
