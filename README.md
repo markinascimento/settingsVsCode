@@ -1,1 +1,1 @@
-Arquivos em desenvolvimento, logo logo estará disponível 
+<h1> My <strong> Extensions </strong> and <strong> Setting </strong> ussed in VSCode </h1>
