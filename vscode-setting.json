@@ -1,21 +1,19 @@
 {
-  "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "Dracula Pro",
   "workbench.editor.labelFormat": "short",
   "workbench.startupEditor": "newUntitledFile",
-
-  "editor.wordWrap": "on",
-  "editor.fontSize": 15,
-  "editor.lineHeight": 20,
-  "terminal.integrated.fontSize": 12,
-  "editor.tabSize": 4,
+  
+  "editor.fontSize": 16,
+  "editor.lineHeight": 30,
+  "editor.fontWeight": "400",
+  "editor.tabSize": 2,
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontLigatures": true,
   "editor.renderLineHighlight": "gutter",
   "editor.rulers": [80, 120],
   "editor.parameterHints.enabled": false,
   "editor.codeActionsOnSave": {
-    "source.fixAll": true
+    "source.fixAll": "explicit"
   },
   "extensions.ignoreRecommendations": true,
   
@@ -30,30 +28,84 @@
   "emmet.includeLanguages": { "javascript": "javascriptreact" },
   
   "diffEditor.ignoreTrimWhitespace": false,
-
   "material-icon-theme.folders.associations": {
-    "domain": "core",
-    "infra": "app",
-    "main": "public",
-    "presentation": "connection",
-    "cryptography": "secure",
-    "entities": "class",
-    "repositories": "mappings",
-    "protocols": "resource",
-    "useCases": "components",
-    "adapters": "connection",
-    "factories": "container",
-    "globals": "global",
-    "ui": "views"
+    "grpc" : "pipe",
+    "kube" : "kubernetes",
+    "main" : "lib",
+    "websockets" : "pipe",
+    "implementations" : "core",
+    "protos" : "pipe",
+    "entities" : "class",
+    "kafka" : "pipe",
+    "use-cases" : "functions",
+    "migrations" : "tools",
+    "schemas" : "class",
+    "useCases" : "functions",
+    "eslint-config" : "tools",
+    "typeorm" : "database",
+    "_shared" : "shared",
+    "mappers" : "meta",
+    "fakes" : "mock",
+    "modules" : "components",
+    "subscribers" : "messages",
+    "domain" : "class",
+    "protocols" : "contract",
+    "infra" : ["app", "application"],
+    "view-models" : "views",
+    "presentation" : "template",
+    "dtos" : "typescript",
+    "http" : "container",
+    "providers" : "include",
+    "factories" : "class",
+    "repositories" : "mappings"
   },
-
+  
+  "[prisma]": {
+    "editor.formatOnSave" : true
+  },
+  
   "material-icon-theme.files.associations": {
     "ormconfig.json": "database",
     "tsconfig.json": "tune",
     ".lintstagedrc.json": "tune"
   },
-
-  "workbench.editor.untitled.hint": "hidden",
-  "polacode.transparentBackground": true,
-  "terminal.integrated.fontFamily": "Fira Code"
+  "material-icon-theme.activeIconPack": "nest",
+  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontWeight": "200",
+  "terminal.integrated.lineHeight": 1,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.stickyScroll.enabled": true,
+  "powermode.presets": "flames",
+  "powermode.combo.counterSize": 0,
+  "powermode.combo.timeout": 0,
+  "powermode.combo.location": "off",
+  "powermode.combo.counterEnabled": "hide",
+  "powermode.shake.enabled": false,
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Windows PowerShell": {
+      "path": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "symbols.hidesExplorerArrows": false,
+  "workbench.editor.empty.hint": "hidden",
+  "window.menuBarVisibility": "compact",
+  "explorer.confirmPasteNative": false,
+  "prisma.showPrismaDataPlatformNotification": false
 }
