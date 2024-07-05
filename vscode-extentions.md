@@ -2,23 +2,18 @@
 * Auto Complete Tag
 * Auto Import
 * Auto Rename Tag
-* Bracket Pair Colorize
-* Code Runner
+* Biome
+* Bracket Pair Color DLW
 * Color Highlight
-* Dracula Pro
 * EditorConfig for Vs Code
 * ES7 React/Redux/GraphQL/React-Native snippets
-* ESLint 
-* Fluent Icons
-* Git Graph
-* GitLens 
-* Live Server
-* Live Share
+* ESLint
+* Import Cost
 * Markdown All in One
-* Material Icon Theme
+* Min Theme
+* PostCSS Language Support
 * Prettier - Code formatter
-* React Native Tools
-* Reload
-* SVG Viewer
-* Vetur
-* vscode-styled-components
+* Symbols
+* Tailwind CSS IntelliSense
+* Thunder Client
+* Vue 3 Snippets
