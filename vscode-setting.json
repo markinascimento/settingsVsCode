@@ -1,111 +1,105 @@
 {
-  "workbench.colorTheme": "Dracula Pro",
-  "workbench.editor.labelFormat": "short",
-  "workbench.startupEditor": "newUntitledFile",
-  
-  "editor.fontSize": 16,
-  "editor.lineHeight": 30,
-  "editor.fontWeight": "400",
-  "editor.tabSize": 2,
-  "editor.fontFamily": "JetBrains Mono",
-  "editor.fontLigatures": true,
-  "editor.renderLineHighlight": "gutter",
-  "editor.rulers": [80, 120],
-  "editor.parameterHints.enabled": false,
-  "editor.codeActionsOnSave": {
-    "source.fixAll": "explicit"
-  },
-  "extensions.ignoreRecommendations": true,
-  
-  "breadcrumbs.enabled": true,
-  "explorer.compactFolders": false,
-  "explorer.confirmDragAndDrop": false,
-  "explorer.confirmDelete": false,
-  "javascript.updateImportsOnFileMove.enabled": "never",
-  "typescript.updateImportsOnFileMove.enabled": "never",
-  
-  "emmet.syntaxProfiles": { "javascript": "jsx" },
-  "emmet.includeLanguages": { "javascript": "javascriptreact" },
-  
-  "diffEditor.ignoreTrimWhitespace": false,
-  "material-icon-theme.folders.associations": {
-    "grpc" : "pipe",
-    "kube" : "kubernetes",
-    "main" : "lib",
-    "websockets" : "pipe",
-    "implementations" : "core",
-    "protos" : "pipe",
-    "entities" : "class",
-    "kafka" : "pipe",
-    "use-cases" : "functions",
-    "migrations" : "tools",
-    "schemas" : "class",
-    "useCases" : "functions",
-    "eslint-config" : "tools",
-    "typeorm" : "database",
-    "_shared" : "shared",
-    "mappers" : "meta",
-    "fakes" : "mock",
-    "modules" : "components",
-    "subscribers" : "messages",
-    "domain" : "class",
-    "protocols" : "contract",
-    "infra" : ["app", "application"],
-    "view-models" : "views",
-    "presentation" : "template",
-    "dtos" : "typescript",
-    "http" : "container",
-    "providers" : "include",
-    "factories" : "class",
-    "repositories" : "mappings"
-  },
-  
-  "[prisma]": {
-    "editor.formatOnSave" : true
-  },
-  
-  "material-icon-theme.files.associations": {
-    "ormconfig.json": "database",
-    "tsconfig.json": "tune",
-    ".lintstagedrc.json": "tune"
-  },
-  "material-icon-theme.activeIconPack": "nest",
-  "terminal.integrated.fontFamily": "JetBrains Mono",
-  "terminal.integrated.fontSize": 14,
-  "terminal.integrated.fontWeight": "200",
-  "terminal.integrated.lineHeight": 1,
-  "workbench.iconTheme": "material-icon-theme",
-  "editor.stickyScroll.enabled": true,
-  "powermode.presets": "flames",
-  "powermode.combo.counterSize": 0,
-  "powermode.combo.timeout": 0,
-  "powermode.combo.location": "off",
-  "powermode.combo.counterEnabled": "hide",
-  "powermode.shake.enabled": false,
-  "terminal.integrated.profiles.windows": {
-    "PowerShell": {
-      "source": "PowerShell",
-      "icon": "terminal-powershell"
+    "workbench.colorTheme": "Dracula Pro",
+    "workbench.editor.labelFormat": "short",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.fontSize": 17,
+    "editor.lineHeight": 30,
+    "editor.fontWeight": "400",
+    "editor.tabSize": 2,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": true,
+    "editor.renderLineHighlight": "gutter",
+    "editor.rulers": [80, 120],
+    "editor.parameterHints.enabled": false,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports.biome": "explicit",
+      "source.addMissingImports": "explicit",
+      "source.sortMembers": "explicit",
+      "source.organizeImports": "explicit"
     },
-    "Command Prompt": {
-      "path": [
-        "${env:windir}\\Sysnative\\cmd.exe",
-        "${env:windir}\\System32\\cmd.exe"
-      ],
-      "args": [],
-      "icon": "terminal-cmd"
+    "extensions.ignoreRecommendations": true,
+    "editor.defaultFormatter": "biomejs.biome",
+
+    "breadcrumbs.enabled": true,
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    
+    "emmet.syntaxProfiles": { "javascript": "jsx" },
+    "emmet.includeLanguages": { "javascript": "javascriptreact" },
+    
+    "diffEditor.ignoreTrimWhitespace": false,
+    "material-icon-theme.folders.associations": {
+      "grpc" : "pipe",
+      "kube" : "kubernetes",
+      "main" : "lib",
+      "websockets" : "pipe",
+      "implementations" : "core",
+      "protos" : "pipe",
+      "entities" : "class",
+      "kafka" : "pipe",
+      "use-cases" : "functions",
+      "migrations" : "tools",
+      "schemas" : "class",
+      "useCases" : "functions",
+      "eslint-config" : "tools",
+      "typeorm" : "database",
+      "_shared" : "shared",
+      "mappers" : "meta",
+      "fakes" : "mock",
+      "modules" : "components",
+      "subscribers" : "messages",
+      "domain" : "class",
+      "protocols" : "contract",
+      "infra" : ["app", "application"],
+      "view-models" : "views",
+      "presentation" : "template",
+      "dtos" : "typescript",
+      "http" : "container",
+      "providers" : "include",
+      "factories" : "class",
+      "repositories" : "mappings"
     },
-    "Git Bash": {
-      "source": "Git Bash"
+    
+    "[prisma]": {
+      "editor.formatOnSave" : true
     },
-    "Windows PowerShell": {
-      "path": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
-    }
-  },
-  "terminal.integrated.defaultProfile.windows": "Command Prompt",
-  "symbols.hidesExplorerArrows": false,
-  "workbench.editor.empty.hint": "hidden",
-  "window.menuBarVisibility": "compact",
-  "explorer.confirmPasteNative": false,
-  "prisma.showPrismaDataPlatformNotification": false
-}
+    
+    "[javascript]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "biomejs.biome",
+      "editor.codeActionsOnSave": {
+        "source.organizeImports.biome": "explicit",
+        "quickfix.biome": "explicit"
+      }
+    },
+
+    "[typescript]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "biomejs.biome",
+      "editor.codeActionsOnSave": {
+        "source.organizeImports.biome": "explicit",
+        "quickfix.biome": "explicit"
+      }
+    },
+    
+    "material-icon-theme.files.associations": {
+      "ormconfig.json": "database",
+      "tsconfig.json": "tune",
+      ".lintstagedrc.json": "tune"
+    },
+    "material-icon-theme.activeIconPack": "nest",
+    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "terminal.integrated.fontSize": 18,
+    "terminal.integrated.fontWeight": "200",
+    "terminal.integrated.lineHeight": 1,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.stickyScroll.enabled": true,
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "workbench.editor.empty.hint": "hidden",
+    "window.menuBarVisibility": "compact",
+    "explorer.confirmPasteNative": false,
+    "eslint.format.enable": true,
+  }
